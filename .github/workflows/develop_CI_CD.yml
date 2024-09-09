@@ -31,7 +31,7 @@ jobs:
 
       - name: download, run httpd image, contaner name serving_base
         run: | 
-          docker run -d --name nerving_base httpd
+          docker run -d --name serving_base httpd
 
       - name: docker ps
         run: | 
