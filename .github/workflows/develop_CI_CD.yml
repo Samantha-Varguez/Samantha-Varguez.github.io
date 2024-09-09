@@ -35,7 +35,7 @@ jobs:
 
       - name: docker ps
         run: | 
-          npm test -- -- no-watch --no-progress --browsers=ChromeHeadlessCI
+          docker ps
 
       - name: cp angular build to container 
         run: | 
