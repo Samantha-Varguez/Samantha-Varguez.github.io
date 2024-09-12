@@ -16,6 +16,7 @@ hr.rounded {
     border-radius: 10px;
   }
 
-img {
-    width: 30px;
+table {
+  width: 100%;
+  height: 100%;
 }
