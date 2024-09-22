@@ -18,6 +18,7 @@ export class EducationComponent {
     escuela: "UV Facultad de Negocios y Tecnologias"
   }
   let edu2 = {
+    carrera: "Educacion Preparatoria",
     fecha: "2019-2022",
     ubicacion: "Orizaba Ver",
     escuela: "Preparatoria Colegio Mexico",

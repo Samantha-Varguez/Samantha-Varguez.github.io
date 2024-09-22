@@ -11,12 +11,13 @@
 
     <ul *ngFor="let Educacion of educationExperience">
         <li>
+            <tr> <b>
+                {{ Educacion.carrera }}
+            </b> </tr> 
             <tr>
                 <td> {{ Educacion.fecha }} </td> <td> </td>
             </tr>
-            <tr>
-                {{ Educacion.carrera }}
-            </tr>
+          
             <tr>
                 {{ Educacion.ubicacion }}
             </tr>

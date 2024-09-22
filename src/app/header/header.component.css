@@ -5,17 +5,13 @@
     font-style: normal;
   }
 
-table {
-    background-color: #da8383;
-    width: 100%;
-    padding: 30px;
-    font-family: "Noto Sans Warang Citi";
-    border-radius: 25px;
-    border: 5px solid;
-}
 
 img {
     border-radius: 50%;
+    padding: 20px;
+    overflow: hidden;
+    margin: 15px auto;
+    border: 15px groove rgb(255, 76, 130);
 }
 
 h1 {
@@ -26,3 +22,6 @@ li {
     margin: 10px 0;
   }
 
+  table {
+    font-family: "Noto Sans Warang Citi";
+  }
