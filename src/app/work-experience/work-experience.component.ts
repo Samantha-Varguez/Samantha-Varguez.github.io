@@ -14,21 +14,22 @@ workExperience : Array<any> =[];
 ngOnInit(): void {
   let work1 = {
     fecha: "2018-2022",
-    ubicacion: "orizaba, Veracruz",
-    puesto: "empleada",
-    empresa: "empresa",
+    ubicacion: "Orizaba, Veracruz",
+    puesto: "Desarrollo Frontend",
+    empresa: "IA Sintomas",
     logros : [
-{descripcion: "Contruccion de un ERPE en la nube de google"},
-{ descripcion: "Creacion de un cluster"}    
+{descripcion: "Desarrollo de Front End de sitio"},
+{ descripcion: "Integracion de APIs"}    
 ]
   };
-  let work2 = { fecha: "2018-2022",
-    ubicacion: "orizaba, Veracruz",
-    puesto: "empleada",
-    empresa: "empresa",
+  let work2 = { fecha: "2022-2024",
+    ubicacion: "Orizaba, Veracruz",
+    puesto: "Administracion de Proyectos",
+    empresa: "Star Cases",
     logros : [
-{descripcion: "Contruccion de un ERPE en la nube de google"},
-{ descripcion: "Creacion de un cluster"}  ]
+{descripcion: "Planeacion del desarrollo de una pagina web"},
+{ descripcion: "Integracion de herramientas IA "}, 
+{descripcion: "Contribucion de herramientas de personalizacion de productos"}  ]
 };
 
 this.workExperience.push(work1);

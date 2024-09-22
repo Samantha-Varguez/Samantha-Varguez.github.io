@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: apache
-    image: samanthava/mycv:a69bc708756540cb71e2ea5a27be41fcd0f391ff
+    image: samanthava/mycv:ba051e517d71e30a8117acd835f8b2eee39f30e6
     ports:
     - containerPort: 80
 
