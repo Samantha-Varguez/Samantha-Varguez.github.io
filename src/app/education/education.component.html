@@ -1,0 +1,32 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap" rel="stylesheet">
+</head>
+
+
+<table>
+
+<h3>Educacion</h3>
+
+    <ul *ngFor="let Educacion of educationExperience">
+        <li>
+            <tr> <b>
+                {{ Educacion.carrera }}
+            </b> </tr> 
+            <tr>
+                <td> {{ Educacion.fecha }} </td> <td> </td>
+            </tr>
+          
+            <tr>
+                {{ Educacion.ubicacion }}
+            </tr>
+            <tr>
+                {{ Educacion.escuela }}
+            </tr>
+
+        </li>
+    </ul>
+
+</table>
+

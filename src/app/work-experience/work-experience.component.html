@@ -1,0 +1,36 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap" rel="stylesheet">
+</head>
+
+
+<table border="0">
+    <h3>Experiencia laboral</h3>
+    <ul *ngFor="let work of workExperience">
+        <li>
+            <tr>
+                <td> {{ work.fecha}} </td>
+                <td> {{ work.ubicacion }}</td>
+            </tr>
+            <tr>
+                <td> {{ work.puesto }}</td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td> {{work.empresa}} </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td> Logros </td>
+            </tr>
+            <ul *ngFor="let logro of work.logros">
+                <li>
+                    <tr>
+                        <td> {{logro.descripcion}} </td>
+                    </tr>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</table>
