@@ -11,8 +11,13 @@
         <li>
             <tr>
                 <td> {{ work.fecha}} </td>
+                <td> </td>
+
+            </tr>
+            <tr>
                 <td> {{ work.ubicacion }}</td>
             </tr>
+
             <tr>
                 <td> {{ work.puesto }}</td>
                 <td> </td>
@@ -22,7 +27,7 @@
                 <td> </td>
             </tr>
             <tr>
-                <td> Logros </td>
+                <td> <b>  Logros </b> </td>
             </tr>
             <ul *ngFor="let logro of work.logros">
                 <li>
