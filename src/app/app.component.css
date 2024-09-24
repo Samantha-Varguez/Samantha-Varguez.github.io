@@ -13,12 +13,13 @@ body {
 table {
   background-color: rgb(229, 207, 207);
   max-width: 800px;
-  height: 1000px;
+  height: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
   box-shadow: 0 2px 20px #bd5b63;
-
+table-layout: auto;
+vertical-align: top;
 }
 
 .noto-sans-warang-citi-regular {

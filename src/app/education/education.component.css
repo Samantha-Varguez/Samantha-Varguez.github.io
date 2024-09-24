@@ -6,6 +6,7 @@
 
   table {
     font-family: "Noto Sans Warang Citi";
-    height: 100%;
+table-layout: auto;
     padding: 30px;
+    vertical-align: top;
 }

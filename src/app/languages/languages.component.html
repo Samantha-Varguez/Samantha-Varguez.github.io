@@ -1,0 +1,23 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap" rel="stylesheet">
+</head>
+
+<table>
+
+    <h3>Idiomas</h3>
+    
+        <ul *ngFor="let languagesExperience of languagesExperience">
+            <li>
+                <tr>
+                  <b>  {{ languagesExperience.nombre }} </b>
+                </tr> 
+                <tr>
+                    {{ languagesExperience.nivel}}
+                </tr> 
+    
+            </li>
+        </ul>
+    
+    </table>
