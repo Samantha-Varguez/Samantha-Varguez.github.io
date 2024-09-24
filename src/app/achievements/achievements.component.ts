@@ -13,12 +13,12 @@ export class AchievementsComponent {
   achievementExperience : Array<any> = [];
   ngOnInit():void {
    let ach1 = {
-    nombre: "Exposicion de pintura UV",
+    nombre: "Exposición de pintura UV",
     fecha: "2024",
    }
    let ach2 = {
     
-     nombre: "Participacion en Becalos English Challenge",
+     nombre: "Participación en Becalos English Challenge",
      fecha: "2023-2024",
    };
    let ach3 = {

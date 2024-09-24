@@ -14,14 +14,14 @@ export class EducationComponent {
   let edu1 = {
     fecha: "2022-2026",
     ubicacion: "Ixtac Ver",
-    carrera: "Ingenieria de Software",
-    escuela: "UV Facultad de Negocios y Tecnologias"
+    carrera: "Ingeniería de Software",
+    escuela: "UV Facultad de Negocios y Tecnologías"
   }
   let edu2 = {
-    carrera: "Educacion Preparatoria",
+    carrera: "Educación Preparatoria",
     fecha: "2019-2022",
     ubicacion: "Orizaba Ver",
-    escuela: "Preparatoria Colegio Mexico",
+    escuela: "Preparatoria Colegio México",
   };
 
   this.educationExperience.push(edu1);
