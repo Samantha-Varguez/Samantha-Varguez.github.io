@@ -19,17 +19,17 @@ ngOnInit(): void {
     empresa: "IA Sintomas",
     logros : [
 {descripcion: "Desarrollo de Front End de sitio"},
-{ descripcion: "Integracion de APIs"}    
+{ descripcion: "Integración de APIs"}    
 ]
   };
   let work2 = { fecha: "2022-2024",
     ubicacion: "Orizaba, Veracruz",
-    puesto: "Administracion de Proyectos",
+    puesto: "Administración de Proyectos",
     empresa: "Star Cases",
     logros : [
-{descripcion: "Planeacion del desarrollo de una pagina web"},
-{ descripcion: "Integracion de herramientas IA "}, 
-{descripcion: "Contribucion de herramientas de personalizacion de productos"}  ]
+{descripcion: "Planeación del desarrollo de una página web"},
+{ descripcion: "Integración de herramientas IA "}, 
+{descripcion: "Contribución de herramientas de personalización de productos"}  ]
 };
 
 this.workExperience.push(work1);
