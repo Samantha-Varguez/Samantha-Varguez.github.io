@@ -5,10 +5,16 @@
 </head>
 
 
-<table border="0">
+<table>
     <h3>Experiencia laboral</h3>
     <ul *ngFor="let work of workExperience">
         <li>
+
+            <tr>
+                <td> <b> {{ work.puesto }} </b> </td>
+                <td> </td>
+            </tr>
+
             <tr>
                 <td> {{ work.fecha}} </td>
                 <td> </td>
@@ -18,10 +24,7 @@
                 <td> {{ work.ubicacion }}</td>
             </tr>
 
-            <tr>
-                <td> {{ work.puesto }}</td>
-                <td> </td>
-            </tr>
+            
             <tr>
                 <td> {{work.empresa}} </td>
                 <td> </td>
