@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samantha Varguez Aguilar </title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #1e293b;
+            --accent: #38bdf8;
+            --text: #e2e8f0;
+            --muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            font-family: Segoe UI, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text)
+        }
+
+        header {
+            padding: 80px 10%;
+            background: linear-gradient(135deg, #0f172a, #1e293b)
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0
+        }
+
+        .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.hero-info {
+    flex: 1;
+}
+
+.hero-photo {
+    margin-left: 40px;
+}
+
+        .subtitle {
+            color: var(--accent);
+            font-size: 1.2rem
+        }
+
+        section {
+            padding: 60px 10%
+        }
+
+        .card {
+            background: var(--card);
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 20px
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px
+        }
+
+        .skills span {
+            display: inline-block;
+            margin: 6px;
+            padding: 8px 12px;
+            background: #334155;
+            border-radius: 20px;
+        }
+
+        .project{
+    background: var(--card);
+    padding: 24px;
+    border-radius: 12px;
+    border-left: 4px solid var(--accent);
+
+    transition: all .3s ease;
+    cursor:pointer;
+}
+
+.project:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.3);
+}
+
+        .project h3 {
+            margin-top: 0
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        .stat {
+            background: var(--card);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        footer {
+            padding: 40px;
+            text-align: center;
+            background: #020617;
+        }
+
+        a.button {
+            display: inline-block;
+            padding: 12px 18px;
+            background: var(--accent);
+            color: #001018;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .project-btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 15px;
+    background:var(--accent);
+    color:#001018;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:visited {
+color: white;
+text-decoration: none;
+
+}
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="hero">
+        <div class="hero-photo">
+            <img src="https://i.postimg.cc/zDhJv6Tw/Whats-App-Image-2026-06-04-at-1-04-28-AM.jpg" alt="Samantha Varguez Aguilar" style="width:240px;height: 300px; border-radius: 80%;" >
+        </div>
+
+        <div class="hero-info">
+            <h1>Samantha Varguez Aguilar</h1>
+
+            <p class="subtitle">
+                Ingeniería de Software • Desarrollo Frontend • Desarrollo Web y Móvil • Inteligencia Artificial
+            </p>
+
+            <div class="contact-links">
+                <a href="mailto:zS22004397@estudiantes.uv.mx"> Email </a>
+                <a href="https://github.com/Samantha-Varguez"> GitHub </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+    
+
+    <section>
+        <h2>Perfil Profesional </h2>
+        <div class="card">
+            <p>
+                Ingeniera de software con experiencia en el desarrollo front-end de aplicaciones web, aplicaciones móviles,
+                sistemas IOT y herramientas con Inteligencia artificial. Mi trabajo se enfoca en arquitecturas escalables, 
+                calidad de código e interfaces amigables con el usuario.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2> Habilidades </h2>
+        <div class="skills">
+            <span>React</span>
+            <span>React Native</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>MongoDB</span>
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>Docker</span>
+            <span>Git</span>
+            <span>SonarQube</span>
+            <span>REST APIs</span>
+            <span>Java</span>
+            <span>TypeScript</span>
+             <span>HTML/CSS</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Proyectos</h2>
+
+        <div class="grid">
+
+            <div class="project">
+                <h3>QuizTime - Aplicación MERN de quizzes </h3>
+                <p> 
+Plataforma de quizzes full stack desarrollado usando MongoDB, Express, React y Node.js. Cuenta con autenticacion basada
+en roles, seguridad con JWT, manejo de quizzes, rutas protegidas e interfaces responsivas
+
+                </p>
+                <strong>Caracteristicas </strong>
+                <ul>
+                    <li>Manejo de múltiples roles de usuario</li>
+                    <li>Autenticación con JWT</li>
+                    <li>Arquitectura basada en REST API</li>
+                    <li>Integración de MongoDB</li>
+                    <li>Pruebas unitarias y de sistema</li>
+
+                </ul>
+                 <a class="project-btn"
+       href="https://github.com/usuario/quiztime">
+       Ver Código
+    </a>
+            </div>
+
+            <div class="project">
+                <h3>Sistema de monitoreo de invernaderos </h3>
+                <p>
+                Aplicación con react native para el monitoreo de ambientes de invernadero usando comunicación con sistemas MQTT.
+                Usa visualización de sensores y control de actuadores, así como manejo de sistemas de invernadero.
+                </p>
+                <strong>Caracteristicas</strong>
+                <ul>
+                    <li>Manejo de actualizaciones de MQTT en tiempo real</li>
+                    <li>Creación de sistemas de dashboard para sensores</li>
+                    <li>Configuración de actuadores</li>
+                    <li>Diseño de interfaces móviles</li>
+                    <li>Integración IOT</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3> Sistema de detección de Equipo de Seguridad </h3>
+                <p>
+                Plataforma para monitorear en tiempo real equipo de seguridad usando WebSockets y visión de maquina. Provee 
+                alertas en tiempo real e historial de hallazgos. 
+                </p>
+                <strong>Características</strong>
+                <ul>
+                    <li>Monitoreo de cámara en tiempo real</li>
+                    <li>Detección de equipo de seguridad</li>
+                    <li>Comunicación con WebSockets</li>
+                    <li>Análisis de seguridad con base en equipo visualizado</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>Desarrollo de aplicación Vida Rosa </h3>
+                <p>
+                   
+                    Proyecto basado en la investigación médica, refactorización de una aplicación móvil existente y uso de técnicas de Machine Learning para analizar casos de 
+                    cáncer de mama.
+                </p>
+                <strong>Caracteristicas</strong>
+                <ul>
+                    <li>Procesamiento de datos</li>
+                    <li>Refactorización de aplicación móvil</li>
+                    <li>Manejo de modelos de clasificación</li>
+                    <li>Uso de Flutter para plataformas móviles</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Enfoque</h2>
+        <div class="stats">
+            <div class="stat">
+                <h3>Full Stack</h3>
+                <p>Arquitecturas MERN</p>
+            </div>
+            <div class="stat">
+                <h3>Desarrollo Móvil</h3>
+                <p>React Native</p>
+            </div>
+            <div class="stat">
+                <h3>IoT</h3>
+                <p>sistemas MQTT</p>
+            </div>
+            <div class="stat">
+                <h3>AI/ML</h3>
+                <p>Modelos predictivos</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <h2>Educación </h2>
+        <div class="card">
+            <h3>Licenciatura en Ingeniería de Software</h3>
+            <p>2026</p>
+            <p>Universidad Veracruzana </p>
+            <p>
+                Areas de desarrollo: Ingenieria de Software, Inteligencia Artificial
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        <div class="card">
+            <p>Email: zS22004397@estudiantes.uv.mx </p>
+            <p>GitHub: <a href="https://github.com/Samantha-Varguez">  </a> </p> 
+            <img src="https://github-readme-stats.vercel.app/api?username=Samantha-Varguez&show_icons=true">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Samantha Varguez Aguilar | CV y Portfolio</p>
+    </footer>
+
+</body>
+
+
+</html>
+
